@@ -1,0 +1,10 @@
+@media screen and (max-width: 1000px) {
+  body {
+    max-width: 200vw;
+    height: 200vh;
+  }
+  Nav ul li {
+    display: flex;
+    flex-direction: column;
+  }
+}
