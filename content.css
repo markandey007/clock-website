@@ -1,0 +1,52 @@
+#heading {
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+
+#attribute {
+  background-color: #8f8181;
+  width: 95px;
+  border-radius: 3px;
+  position: relative;
+  bottom: 11px;
+  left: 13px;
+  font-family: 'Karla', sans-serif;
+}
+/* CHANGES IN ATTRIBUTE  */
+.href a {
+  text-decoration: none;
+  color: black;
+}
+
+/* UNDESCORE PORTION  */
+.tester {
+  position: relative;
+  bottom: 4px;
+  left: 8px;
+  color: #454343;
+}
+
+#time {
+  font-family: 'Andada Pro', serif;
+  color: #d1b694;
+}
+#paragraph1 {
+  color: #bca1a1;
+  position: relative;
+  bottom: -9px;
+  left: 8px;
+}
+#paragraph2 {
+  color: #cd98a3;
+  position: relative;
+  bottom: 4px;
+  left: 8px;
+}
+/* hovering  */
+.href :hover {
+  background-color: rgb(73, 61, 66);
+  color: rgb(212, 199, 186);
+  border-radius: 2px;
+  cursor: pointer;
+}

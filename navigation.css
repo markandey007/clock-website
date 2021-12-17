@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #270e22;
+}
+/* changes IN NAV  */
+nav {
+  background-color: #070707;
+  height: 35px;
+  width: 1278px;
+}
+/* FOR ENTIRE UL */
+#Nav {
+  display: flex;
+  flex-direction: row;
+}
+/*FOR LI IN UL */
+nav ul li {
+  position: relative;
+  left: 1px;
+  bottom: 24px;
+  list-style: none;
+  margin: 8px;
+  padding: 24px;
+}
+/* FOR a IN li UNDER ul  */
+nav ul li a {
+  color: rgb(248, 242, 242);
+  list-style: none;
+  text-decoration: none;
+}
+
+/* FOR PARTICULAR LI UNDER ID #mail  */
+#mail {
+  padding: 2px;
+  position: relative;
+  left: 85px;
+  top: -2px;
+}
+#con {
+  position: relative;
+  top: 21px;
+  left: 13px;
+  margin: 21px auto;
+  background-color: black;
+  color: white;
+  height: 261px;
+  width: 537px;
+}
+
+/* Hovering  */
+nav ul li :hover {
+  background-color: rgb(73, 61, 66);
+  color: black;
+  border-radius: 4px;
+}
