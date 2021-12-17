@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="content.css">
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Fira+Sans:wght@300&family=Karla:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Responsive.css">
+    <title>maarkandey's clock</title>
+    <script>
+        
+        setInterval(() => {
+           date=new Date();
+           const t=date.getHours()+ ':' + date.getMinutes()+ ':' + date.getSeconds();
+           const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+           const day=date.toLocaleDateString(undefined,options); 
+           document.getElementById('time').innerHTML= t + ' ' + "<br>on" + ' ' + day+ '.';   
+        },1000);
+
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="Nav">
+                <li><a href="https://weather.com/en-IN/" target="blank">Weather Forecast</a></li>
+                <li><a href="https://www.ndtv.com/topic/temperature" target="blank">Temperature</a></li>
+                <li><a href="https://whdh.com/weather-blog/humidity-increases-tropical-downpours-thursday/" target="blank">Humidity</a></li>
+
+                <li id="mail"><a href="https://sarkarihelpline.com/pr-indian-journalist-contact-details-newspaper-contact-number/" target="blank">Email</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div id="con" class="container">
+            <h2 id="heading">Current time Is:  <span id="time"></span></h2>
+                <br>
+             <p id="paragraph1">It displays the Indian Standard Time(IST).We have got you covered.This is the simple hero unit!</p>   
+             <br>
+             <br>
+            <p id="motion" class="tester"> _________________________________________________________________ </p>
+             <br>
+             <br>
+           
+             <p id="paragraph2" class="para2">
+                 <b>We are here to show you the time of different countries:</b>
+             </p>
+             <br>
+             <div id="attribute" class="href">
+                 <a href="https://www.timeanddate.com/worldclock/" target="blank"> <b> Browse times</b></a>
+             </div>
+
+        
+
+
+        </div>
+    </body>
+    
+</body>
+</html>
